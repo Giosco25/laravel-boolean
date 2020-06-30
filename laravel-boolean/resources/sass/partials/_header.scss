@@ -1,0 +1,26 @@
+header{
+    height: 100px;
+    @include display-flex;
+
+    .logo img{
+        width: 40%;
+        margin-left: 13px;
+    }
+}
+
+.menu{
+    display: flex;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+}
+.menu ul li{
+    padding-right: 30px;
+    margin-top: 10px;
+    a{
+        color:$color_page;
+    }
+}

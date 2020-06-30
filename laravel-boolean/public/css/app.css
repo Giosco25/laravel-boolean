@@ -10942,7 +10942,6 @@ header .logo img {
 
 .menu {
   display: flex;
-  margin-top: 21px;
 }
 
 .menu ul {
@@ -10961,10 +10960,6 @@ header .logo img {
   color: #1b3c59;
 }
 
-.btn {
-  margin-top: -7px;
-}
-
 main {
   background-color: red;
   height: 1140px;
@@ -10975,18 +10970,64 @@ main {
   height: 350px;
 }
 
-.first-section,
-.second-section {
+.wrapper .container {
+  margin-top: 20px;
+}
+
+.first-section {
   height: 350px;
   width: 100%;
   padding-top: 20px;
 }
 
+.first-section h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.first-section p {
+  color: #1b3c59;
+  font-size: 22px;
+}
+
+.first-section ul {
+  padding-left: 19px;
+}
+
 .second-section {
+  height: 350px;
+  width: 100%;
+  padding-top: 20px;
   background-color: white;
 }
 
 .second-section img {
   width: 100%;
+}
+
+.number {
+  height: 250px;
+  width: 100%;
+  background-color: #1b3c59;
+}
+
+.number-left,
+.number-center,
+.number-right {
+  padding-top: 60px;
+}
+
+.number-left h3,
+.number-center h3,
+.number-right h3 {
+  color: white;
+  font-size: 40px;
+}
+
+.number-left p,
+.number-center p,
+.number-right p {
+  color: white;
+  font-size: 19px;
 }
 

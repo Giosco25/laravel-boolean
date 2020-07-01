@@ -62,7 +62,69 @@
 
                 </div>
             </div>
-        </main>
+            <div class="partners">
+                <div class="title">
+                    <h3>I nostri studenti sono stati assunti da:</h3>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="logo-partners col-4">
+                            <div class="first-partner">
+                                <img src="https://www.boolean.careers/images/companies/facileit.png" alt="">
+                            </div>
+                            <div class="fourth-partner">
+                                <img src="https://www.boolean.careers/images/companies/fabbrica-digitale-big.png" alt="">
+                            </div>
+                        </div>
+                        <div class="logo-partners col-4">
+                            <div class="second-partner">
+                                <img src="https://www.boolean.careers/images/companies/oneday.png" alt="">
+                            </div>
+                            <div class="fifth-partner">
+                                <img src="https://www.boolean.careers/images/companies/nephila.png" alt="">
+                            </div>
 
+                        </div>
+                        <div class="logo-partners col-4">
+                            <div class="third-partner">
+                                <img src="https://www.boolean.careers/images/companies/prima.png" alt="">
+                            </div>
+                            <div class="sixth-partner">
+                                <img src="https://www.boolean.careers/images/companies/rds.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="footer-top-left brd">
+                        <div class="left-img">
+                            <img src="https://www.boolean.careers/images/common/logo-white.png" alt="">
+                        </div>
+                        <div class="contacts">
+                            <p>Sede Operativa</p>
+                            <p>Via Carducci 12 - 20123 Milano</p>
+                            <p>Tel: 02-40031288</p>
+                        </div>
+                    </div>
+                    <div class="footer-top-right brd">
+                        <ul class="information">
+                            <li><a href="#">Lezione gratuita</a></li>
+                            <li><a href="#">Domande frequenti</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                            <li><a href="#">Lavora con noi</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

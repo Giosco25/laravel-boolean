@@ -1,6 +1,6 @@
 main{
     background-color: red;
-    height: 1140px;
+    height: 900px;
 
 }
 .wrapper{
@@ -55,5 +55,27 @@ main{
     p{
         color:white;
         font-size: 19px;
+    }
+}
+.partners{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+
+    .title h3{
+        margin-left: 150px;
+    }
+}
+.logo-partners{
+    height: 259px;
+    background-color: white;
+}
+.fourth-partner, .fifth-partner, .sixth-partner{
+    margin-left: $margin_left;
+}
+.first-partner, .second-partner, .third-partner , .fourth-partner, .fifth-partner, .sixth-partner {
+
+    img{
+        width: 270px;
     }
 }

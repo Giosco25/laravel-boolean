@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title></title>
         <link rel="stylesheet" href="css/app.css">
+        <script src="https://kit.fontawesome.com/097503c669.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
@@ -122,7 +123,20 @@
             </div>
             <div class="footer-bottom">
                 <div class="container">
+                    <div class="row">
+                        <div class="col-4"></div>
+                        <div class=" footer-icon col-offset-4 text-center">
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                            <i class="fab fa-youtube"></i>
+                            <div class="footer-p">
+                                <p>Boolean SRL - Piazzale Giovanni dalle Bande Nere, 9 - 20146, Milano - P.IVA: 10214930967</p>
+                            </div>
 
+                        </div>
+                        <div class="col-4"></div>
+                    </div>
                 </div>
             </div>
         </footer>

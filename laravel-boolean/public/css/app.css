@@ -11084,12 +11084,11 @@ footer .footer-top .container {
 
 footer .footer-bottom {
   height: 50%;
-  background-color: yellow;
+  background-color: #1b3c59;
 }
 
 footer .footer-bottom .container {
   height: 100%;
-  background-color: red;
 }
 
 .footer-top-left {
@@ -11115,7 +11114,6 @@ footer .footer-bottom .container {
 .footer-top-right {
   width: 50%;
   height: 100%;
-  background-color: #1b3c59;
   float: left;
   position: relative;
 }
@@ -11130,5 +11128,23 @@ footer .footer-bottom .container {
 
 .footer-top-right .information a {
   color: white;
+}
+
+.footer-icon {
+  height: 200px;
+  width: 359px;
+}
+
+.footer-icon i {
+  color: white;
+  font-size: 35px;
+  padding-left: 23px;
+  margin-top: 40px;
+}
+
+.footer-p p {
+  color: white;
+  font-size: 15px;
+  margin-top: 20px;
 }
 

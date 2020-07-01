@@ -14,10 +14,9 @@ footer{
     }
     .footer-bottom{
         height: 50%;
-        background-color: yellow;
+        background-color: $color_page;
         .container{
             height: 100%;
-            background-color: red;
         }
 
     }
@@ -44,7 +43,6 @@ footer{
 .footer-top-right{
     width: 50%;
     height: 100%;
-    background-color: $color_page;
     float: left;
     position: relative;
     .information{
@@ -58,4 +56,19 @@ footer{
         }
     }
 
+}
+.footer-icon{
+    height: 200px;
+    width: 359px;
+    i{
+        color: white;
+        font-size: 35px;
+        padding-left: 23px;
+        margin-top: 40px;
+    }
+}
+.footer-p p{
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
 }

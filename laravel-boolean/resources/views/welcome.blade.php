@@ -7,7 +7,8 @@
         <script src="https://kit.fontawesome.com/097503c669.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header>
+        @include('partials.header')
+        {{-- <header>
             <div class="logo">
                 <img src="{{ asset('images/logo.png') }}" alt="Boolean-logo">
             </div>
@@ -23,7 +24,7 @@
                     <button type="button" class="btn btn-primary">Canditati ora</button>
                 </div>
             </div>
-        </header>
+        </header> --}}
         <main>
             <div class="wrapper">
                 <div class="container">
@@ -98,7 +99,8 @@
                 </div>
             </div>
         </main>
-        <footer>
+        @include('partials.footer')
+        {{-- <footer>
             <div class="footer-top">
                 <div class="container">
                     <div class="footer-top-left brd">
@@ -139,6 +141,6 @@
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer> --}}
     </body>
 </html>

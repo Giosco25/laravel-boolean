@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-        <link rel="stylesheet" href="css/app.css">
-        <script src="https://kit.fontawesome.com/097503c669.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        @include('partials.header')
-        <div class="privacy">
+@extends('layouts.app')
+
+@section('main')
+    <div class="privacy">
             <div class="container">
                 <div class="row">
                     <h1>Privacy Policy</h1>
@@ -116,7 +109,8 @@
                 <p>Per esercitare i Suoi diritti appena elencati, potrà inoltrare richiesta all’indirizzo e-mail ciao@boolean.careers</p>
             </div>
         </div>
+@endsection
 
-        @include('partials.footer')
-    </body>
-</html>
+@section('page-title', 'privacy policy')
+
+@section('body-class', 'privacy')        
